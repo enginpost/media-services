@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# written by hermes agent using muse-glimmer with low effort
 """
 Interview helper for streaming recommender.
 Reads search_options.json and prints structured options for UI presentation.

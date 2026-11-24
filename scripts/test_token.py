@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# written by hermes agent using muse-glimmer with low effort
 """
 Test TMDB v4 read access token.
 Reads token from config/tmdb_read_token.txt and makes a simple authenticated request.
