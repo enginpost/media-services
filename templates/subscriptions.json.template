@@ -1,0 +1,13 @@
+{
+  "services": [
+    "netflix",
+    "prime_video",
+    "hbo_max",
+    "disney_plus",
+    "hulu",
+    "paramount_plus",
+    "plex",
+    "apple_tv",
+    "starz"
+  ]
+}
