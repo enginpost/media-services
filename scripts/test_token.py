@@ -24,7 +24,7 @@ def read_token():
 
 def main():
     token = read_token()
-    url = "https://api.themoviedb.org/4/account"
+    url = "https://api.themoviedb.org/3/movie/550"
     req = urllib.request.Request(url)
     req.add_header("Authorization", f"Bearer {token}")
     req.add_header("Accept", "application/json")
