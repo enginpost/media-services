@@ -19,10 +19,14 @@ def load_options():
     genres = [g["name"] for g in data.get("genres", [])]
     decades = [d["label"] for d in data.get("decades", [])]
     moods = data.get("moods", [])
+    formats = data.get("formats", [])
+    runtimes = [r["label"] for r in data.get("runtimes", [])]
     return {
         "genres": genres,
         "decades": decades,
-        "moods": moods
+        "moods": moods,
+        "formats": formats,
+        "runtimes": runtimes
     }
 
 if __name__ == "__main__":
